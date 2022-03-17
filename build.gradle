@@ -1,0 +1,12 @@
+plugins {
+    id("wheel").version("snapshot")
+}
+
+project.with {
+    version("0.0.0")
+    group("user11681")
+}
+
+dependencies {
+    mod("api")
+}

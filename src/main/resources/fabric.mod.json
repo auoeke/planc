@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "planc",
+    "version": "${version}",
+
+    "name": "Planc",
+    "description": "planc",
+    "authors": [
+        "user11681"
+    ],
+    "contact": {
+        "repo": "https://github.com/user11681/planc"
+    },
+
+    "license": "LGPL-3.0",
+    "icon": "assets/planc/icon.png",
+
+    "entrypoints": {
+        "main": [
+            "user11681.planc.Planc"
+        ],
+        "client": [
+            "user11681.planc.Planc"
+        ]
+    },
+
+    "mixins": [
+        "planc.mixins.json"
+    ]
+}
